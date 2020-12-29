@@ -33,7 +33,7 @@ function randomColor() {
 
 function Ball() {
   this.color = randomColor();
-  this.radius = Math.random() * 30 + 15;
+  this.radius = Math.random() * 35 + 15;
   this.startradius = this.radius;
   this.x = Math.random() * (tx - this.radius * 2) + this.radius;
   this.y = Math.random() * (ty - this.radius);
