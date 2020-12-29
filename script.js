@@ -38,7 +38,7 @@ function Ball() {
   this.x = Math.random() * (tx - this.radius * 2) + this.radius;
   this.y = Math.random() * (ty - this.radius);
   this.dy = Math.random() * 2;
-  this.dx = Math.round((Math.random() - 0.5) * 10);
+  this.dx = Math.round((Math.random() - 0.5) * 5);
   this.vel = Math.random() / 5;
   this.update = function () {
     c.beginPath();
